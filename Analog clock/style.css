@@ -1,0 +1,77 @@
+*{
+    background-color:rgb(36, 25, 48);
+    padding:0;
+    margin:0;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.todoContainer
+{
+    position:absolute;
+    left:520px;
+    top:100px;
+    width:400px;
+    height: 400px;
+    
+}
+.todosec{
+    color:white;
+    padding: 10px;
+    background-color: white;
+    width:400px;
+    height:400px;
+    padding:20px;
+    margin-bottom:10px ;
+}
+h1{
+    border-bottom: 2px solid black;
+    background-color: white;
+    color:rgb(26, 3, 51);
+}
+input{
+    width:350px;
+    height:50px;
+    color:black;
+    padding:10px;
+    margin-top: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color:rgb(219, 213, 213);
+    border:none;
+    font-size: large;
+}
+input[type="text"]{
+    color:black;
+    font-size: large;
+    padding:10px;
+}
+button{
+    width:80px;
+    height:50px;
+    position: absolute;
+    left:290px;
+    top:68px;
+    border-radius: 30px;
+    font-size: large;
+    font-weight: bold;
+    background-color: orangered;
+    border:2px solid orangered;
+    color:white;    
+}
+li{
+    background-color:white;
+    color:black;
+    height: 30px;
+    padding: 20px;
+    font-size: x-large;
+    appearance: none;
+}
+span{
+    /* padding-left: 200px; */
+    color:red;
+    font-weight: bolder;
+    font-size: large;
+    background-color: white;
+    margin-left: 150px;
+}
